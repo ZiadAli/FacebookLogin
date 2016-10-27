@@ -13,7 +13,6 @@
 		991996F71DBFC89F00D3EA8A /* FacebookLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991996F51DBFC89F00D3EA8A /* FacebookLogin.xcdatamodeld */; };
 		991996F91DBFC89F00D3EA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991996F81DBFC89F00D3EA8A /* Assets.xcassets */; };
 		991996FC1DBFC89F00D3EA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991996FA1DBFC89F00D3EA8A /* LaunchScreen.storyboard */; };
-		991997051DBFCBC500D3EA8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 991997041DBFCBC500D3EA8A /* GoogleService-Info.plist */; };
 		CEB8ECE19FE4905389D90778 /* Pods_FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C753EF773EAE68566140CC /* Pods_FacebookLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		991996FB1DBFC89F00D3EA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		991996FD1DBFC89F00D3EA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		991997031DBFC9BE00D3EA8A /* FacebookLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookLogin-Bridging-Header.h"; sourceTree = "<group>"; };
-		991997041DBFCBC500D3EA8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A003DE47A9704D608FB50AF3 /* Pods-FacebookLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookLogin/Pods-FacebookLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +81,6 @@
 				991996FD1DBFC89F00D3EA8A /* Info.plist */,
 				991996F51DBFC89F00D3EA8A /* FacebookLogin.xcdatamodeld */,
 				991997031DBFC9BE00D3EA8A /* FacebookLogin-Bridging-Header.h */,
-				991997041DBFCBC500D3EA8A /* GoogleService-Info.plist */,
 			);
 			path = FacebookLogin;
 			sourceTree = "<group>";
@@ -162,7 +159,6 @@
 				991996FC1DBFC89F00D3EA8A /* LaunchScreen.storyboard in Resources */,
 				991996F91DBFC89F00D3EA8A /* Assets.xcassets in Resources */,
 				991996F41DBFC89F00D3EA8A /* Main.storyboard in Resources */,
-				991997051DBFCBC500D3EA8A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
