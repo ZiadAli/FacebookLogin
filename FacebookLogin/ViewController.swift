@@ -12,12 +12,14 @@ import FBSDKLoginKit
 
 class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
-    @IBOutlet var loginButtonView: FBSDKLoginButton!
+    let loginButton = FBSDKLoginButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginButtonView.delegate = self
-        loginButtonView.readPermissions = ["public_profile", "email", "user_friends"];
+        view.addSubview(loginButton)
+        loginButton.center = view.center
+        loginButton.delegate = self
+        loginButton.readPermissions = ["public_profile", "email", "user_friends"];
     }
 
     override func didReceiveMemoryWarning() {

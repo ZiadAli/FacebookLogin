@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		991996EF1DBFC89F00D3EA8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991996EE1DBFC89F00D3EA8A /* AppDelegate.swift */; };
-		991996F11DBFC89F00D3EA8A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991996F01DBFC89F00D3EA8A /* LoginController.swift */; };
+		991996F11DBFC89F00D3EA8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991996F01DBFC89F00D3EA8A /* ViewController.swift */; };
 		991996F41DBFC89F00D3EA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991996F21DBFC89F00D3EA8A /* Main.storyboard */; };
 		991996F71DBFC89F00D3EA8A /* FacebookLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991996F51DBFC89F00D3EA8A /* FacebookLogin.xcdatamodeld */; };
 		991996F91DBFC89F00D3EA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991996F81DBFC89F00D3EA8A /* Assets.xcassets */; };
@@ -22,7 +22,7 @@
 		42C753EF773EAE68566140CC /* Pods_FacebookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		991996EB1DBFC89F00D3EA8A /* FacebookLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		991996EE1DBFC89F00D3EA8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		991996F01DBFC89F00D3EA8A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		991996F01DBFC89F00D3EA8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		991996F31DBFC89F00D3EA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		991996F61DBFC89F00D3EA8A /* FacebookLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FacebookLogin.xcdatamodel; sourceTree = "<group>"; };
 		991996F81DBFC89F00D3EA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				991996EE1DBFC89F00D3EA8A /* AppDelegate.swift */,
-				991996F01DBFC89F00D3EA8A /* LoginController.swift */,
+				991996F01DBFC89F00D3EA8A /* ViewController.swift */,
 				991996F21DBFC89F00D3EA8A /* Main.storyboard */,
 				991996F81DBFC89F00D3EA8A /* Assets.xcassets */,
 				991996FA1DBFC89F00D3EA8A /* LaunchScreen.storyboard */,
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991996F11DBFC89F00D3EA8A /* LoginController.swift in Sources */,
+				991996F11DBFC89F00D3EA8A /* ViewController.swift in Sources */,
 				991996EF1DBFC89F00D3EA8A /* AppDelegate.swift in Sources */,
 				991996F71DBFC89F00D3EA8A /* FacebookLogin.xcdatamodeld in Sources */,
 			);
